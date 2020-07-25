@@ -1,0 +1,19 @@
+
+.marker-title{
+  color: black;
+}
+
+.marker-desc-ok{
+    text-shadow: none;
+    color: #1c7430;
+}
+
+.marker-desc-not-ok{
+    text-shadow: none;
+    color: #fd7e14;
+}
+
+#container-map {
+    margin-left: -25%;
+    margin-right: -25%;
+}
