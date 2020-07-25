@@ -1,2 +1,10 @@
 # Retrolimeños-points
-Algo con google maps denuevo, pero tiene que servirle a los retrolimeños.
+
+
+Mapa donde agregar puntos que cambiaron x la pandemia,
+
+
+Tiene openlayers (fuck google no voy a usar mi tarjeta de credito) y basic JS / bootstrap.
+
+
+Bien basico esta vaina xd
