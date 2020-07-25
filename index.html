@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
-
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHCdsOpC1ijbcTFqgoXIoTsUc_b-xU0vE&callback=initMap">
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Israel 'Isxida' Romero">
     <meta name="keywords" content="retrolimenyos, fb group, pelao ps, rabona">
-    <meta name="description" content="Desarrollo de sitio web para retrolimenyos">
+    <meta name="description" content="Erlyn dice bbcita pepelin">
+
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -35,7 +39,14 @@
                 font-size: 3.5rem;
             }
         }
+
+
+        #map {
+            height: 400px;  /* The height is 400 pixels */
+            width: 100%;  /* The width is the width of the web page */
+        }
     </style>
+
 </head>
 <body class="text-center" data-gr-c-s-loaded="true">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -50,9 +61,7 @@
         </header>
 
         <main role="main" class="inner cover">
-            <h1 class="cover-heading"> Intento hacer algo para los Retrolime&ntilde;os,
-                pero no se que hacer</h1>
-            <p class="lead">Luego de esto tendria que ir un mapa con puntos dentro del main</p>
+            <div id="map"> <!--Aqui deberia ir el mapa...creo--></div>
         </main>
 
         <footer class="mastfoot mt-auto">
